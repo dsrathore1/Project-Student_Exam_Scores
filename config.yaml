@@ -1,0 +1,25 @@
+project:
+  name: "Student Marks Analysis"
+  author: "Digpal Singh Rathore"
+  version: "1.0"
+  description: "Predicting students performance based upon their last exam using classification models."
+  created_date: "2025-11-03"
+  environment: "development"
+
+paths:
+  raw_data: "Data/raw"
+  processed_data: "Data/processed/"
+  models: "models/"
+  # logs: "logs/"
+  notebooks: "notebooks/"
+  config_backup: "config.yaml"
+
+data:
+  source: "local"
+  file_name: "student_exam_scores.csv"
+  id_column: "students_id"
+  features:
+    numerical:
+      ["sleep_hours", "attendance_percent", "previous_scores", "exam_score"]
+    categorical: ["student_id"]
+  drop_columns: ["student_id"]
