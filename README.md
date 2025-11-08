@@ -1,6 +1,7 @@
 <div align="center">
 
 ## 🧠 Student Exam Marks Analysis — ML Model
+
 </div>
 
 A machine learning project to analyze and predict student exam performance using Python’s data science stack. The project is containerized with **Docker** and uses **FastAPI** for API deployment, alongside exploratory data analysis in **Jupyter Notebook**.
@@ -9,52 +10,52 @@ A machine learning project to analyze and predict student exam performance using
 
 ### 📚 Table of Contents
 
-* [Overview](#overview)
-* [Features](#features)
-* [Tech Stack](#tech-stack)
-* [Setup & Installation](#setup--installation)
-* [Running the Application](#running-the-application)
-* [Usage](#usage)
-* [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-* [API Endpoints](#api-endpoints)
-* [Results](#results)
-* [Contributing](#contributing)
-* [License](#license)
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Setup & Installation](#setup--installation)
+- [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [API Endpoints](#api-endpoints)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-### 🔍 Overview
+### Overview
 
 This project demonstrates how machine learning can be used to analyze and predict student exam scores based on various features such as study time, attendance, and previous scores.
 It includes:
 
-* Data preprocessing and visualization (in Jupyter Notebook)
-* Model training and evaluation
-* Deployment using **FastAPI** inside a **Docker** container
+- Data preprocessing and visualization (in Jupyter Notebook)
+- Model training and evaluation
+- Deployment using **FastAPI** inside a **Docker** container
 
 ---
 
-### ✨ Features
+### Features
 
-* 📊 Clean and preprocess data using **Pandas**
-* 📈 Visualize performance trends using **Matplotlib** and **Seaborn**
-* 🤖 Train regression/classification models to predict exam outcomes
-* ⚡ Deploy trained models with **FastAPI**
-* 🐳 Containerized deployment using **Docker**
-
----
-
-### 🧰 Tech Stack
-
-* **Python 3.10+**
-* **FastAPI**
-* **Docker**
-* **Jupyter Notebook**
-* **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, **Scikit-learn**
+- 📊 Clean and preprocess data using **Pandas**
+- 📈 Visualize performance trends using **Matplotlib** and **Seaborn**
+- 🤖 Train regression/classification models to predict exam outcomes
+- ⚡ Deploy trained models with **FastAPI**
+- 🐳 Containerized deployment using **Docker**
 
 ---
 
-### ⚙️ Setup & Installation
+### Tech Stack
+
+- **Python 3.10+**
+- **FastAPI**
+- **Docker**
+- **Jupyter Notebook**
+- **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, **Scikit-learn**
+
+---
+
+### Setup & Installation
 
 #### 1️⃣ Clone the Repository
 
@@ -78,7 +79,7 @@ pip install -r requirements.txt
 
 ---
 
-### 🐳 Running the Application with Docker
+### Running the Application with Docker
 
 Build and run the container:
 
@@ -91,28 +92,29 @@ Access the FastAPI app at: [http://localhost:8000/docs](http://localhost:8000/do
 
 ---
 
-### 🚀 Usage
+### Usage
 
-* Explore data and train models in **Jupyter Notebook**:
+- Explore data and train models in **Jupyter Notebook**:
 
   ```bash
   jupyter notebook
   ```
-* Use **FastAPI** endpoints to send new student data and get predictions.
+
+- Use **FastAPI** endpoints to send new student data and get predictions.
 
 ---
 
-### 📊 Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 Visualize relationships between:
 
-* Study hours vs Exam marks
-* Attendance vs Performance
-* Previous Scores vs Exam Scores
+- Study hours vs Exam marks
+- Attendance vs Performance
+- Previous Scores vs Exam Scores
 
 ---
 
-### 🔌 API Endpoints
+### API Endpoints
 
 | Method | Endpoint   | Description                                         |
 | ------ | ---------- | --------------------------------------------------- |
@@ -131,14 +133,14 @@ Example request:
 
 ---
 
-### 🧾 Results
+### Results
 
-* Achieved **R² score of 0.87** on test data
-* Insights show that **study hours** and **previous performance** are the strongest predictors of final exam marks
+- Achieved **R² score of 0.87** on test data
+- Insights show that **study hours** and **previous performance** are the strongest predictors of final exam marks
 
 ---
 
-### 🤝 Contributing
+### Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -150,7 +152,6 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-### 🪪 License
+### License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
