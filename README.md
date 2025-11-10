@@ -6,6 +6,8 @@
 
 A machine learning project to analyze and predict student exam performance using Python’s data science stack. The project is containerized with **Docker** and uses **FastAPI** for API deployment, alongside exploratory data analysis in **Jupyter Notebook**.
 
+I build a Regression ML Pipeline that predicts exam_score from the other features.
+
 ---
 
 ### 📚 Table of Contents
